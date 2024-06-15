@@ -1,0 +1,5 @@
+def palindrome(data):
+    return data == data[::-1]
+    
+palindrome("level") #True
+palindrome("madaa") #False
